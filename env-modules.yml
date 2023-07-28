@@ -1,0 +1,10 @@
+---
+- hosts: 
+    - all
+  gather_facts: yes
+ 
+  roles:
+    - role: env_modules
+      tags: [ modules ]
+
+
