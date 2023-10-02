@@ -11,7 +11,7 @@ cat <<EOT
 { 
   "docker": {
     ${hosts},
-    "vars": { "ansible_connection": "docker" }
+    "vars": { "ansible_connection": "docker", "ansible_user": "root" }
   }
 }
 EOT
